@@ -5,7 +5,7 @@ import collections
 import pprint
 from functools import partial
 
-base_url = "http://public-crest.eveonline.com/"
+base_url = "https://public-crest.eveonline.com/"
 
 def crespy_hook(headers, dct):
   if isinstance(dct,dict):
